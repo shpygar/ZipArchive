@@ -370,9 +370,9 @@
             }
         }
         
-        if (ret == UNZ_OK) {
+       // if (ret == UNZ_OK) {
             ret = unzGoToNextFile( _unzFile );
-        }
+        //}
         
         if (_progressBlock && _numFiles) {
             index++;
